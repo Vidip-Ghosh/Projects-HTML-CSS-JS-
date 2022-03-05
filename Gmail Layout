@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Gmail</title>
+    <link rel="icon" href="https://stealthoptional.com/wp-content/uploads/2021/10/Gmail.max-1100x1100-1.png">
+    <!--Google Font Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .Menu{
+        position: relative;
+        width: 43px;
+        height: 35px;
+        bottom: 27px;
+        left: 17px;
+    }
+    .Gmail{
+        position: relative;
+        width: 195px;
+        height: 90px;
+    }
+    .Search{
+        position: relative;
+        bottom: 73px;
+        left: 277px;
+        height: 45px;
+        width: 680px;
+        padding-left: 30px;
+        border-radius: 12px;
+        font-size: 20px;
+    }
+    .Support{
+        position: relative;
+        left: 1500px;
+        bottom: 123px;
+    }
+    .Setting{
+        position: relative;
+        left: 1510px;
+        bottom: 123px;
+    }
+    .Apps{
+        position: relative;
+        left: 1520px;
+        bottom: 120px;
+        height: 30px;
+        width: 30px;
+    }
+    .Account_Circle{
+        position: relative;
+        left: 1530px;
+        bottom: 120px;
+        height: 30px;
+        width: 30px;
+    }
+    .btn{
+        height: 50px;
+        width: 140px;
+        border-radius: 40px;
+        bottom: 30px;
+        margin-left: 15px;
+        background-color: whitesmoke;
+        padding-right:5px;
+        padding-bottom: 10px;
+        text-indent: 20px;
+        font-size: 15px;
+        color: gray;
+    }
+    .SidebarOptions{
+        position: relative;
+        margin-left: 20px;
+        top: 10px;
+        font-size: 20px;
+        
+    }
+    .b1{
+        position: relative;
+        top: 8px;
+    }
+    .b2{
+        position: relative;
+        top: 8px;
+    }
+    .b3{
+        position: relative;
+        top: 8px;
+    }
+    .b4{
+        position: relative;
+        top: 8px;
+    }
+    .b5{
+        position: relative;
+        top: 8px;
+    }
+    .b6{
+        position: relative;
+        top: 8px;
+    }
+    .Primary{
+        position: relative; 
+        left: 300px; 
+        bottom: 320px; 
+        border: 2px solid; 
+        box-sizing: border-box; 
+        width: 290px;
+        height: 40px;
+        border-color: indianred;
+    }
+    .Social{
+        position: relative; 
+        left: 590px; 
+        bottom: 360px; 
+        border: 2px solid; 
+        box-sizing: border-box; 
+        width: 290px;
+        height: 40px;
+    }
+    .Promotion{
+        position: relative; 
+        left: 880px; 
+        bottom: 400px; 
+        border: 2px solid; 
+        box-sizing: border-box; 
+        width: 290px;
+        height: 40px;
+    }
+    .emailRow{
+        position: relative;
+        box-sizing: border-box;
+        left: 300px;
+        border: 1px solid;
+        padding-left: 20px;
+        bottom: 400px;
+        
+    }
+</style>
+<body>
+    <!--Header Starts-->
+    <div class="header">
+        <div class="header_left">
+            <img src="Menu-icon.png" class="Menu">
+            <img src="Gmail.jpg" class="Gmail">
+        </div>
+        
+        <div class="header_middle">
+            <input type="text" placeholder="Search mail" class="Search">
+        </div>
+
+        <div class="header_right">
+            <img src="Support.svg" class="Support">
+            <img src="Setting.svg" class="Setting">
+            <img src="Apps.svg" class="Apps">
+            <img src="Account_Circle.svg" class="Account_Circle">
+        </div>
+        <hr style="position: relative; bottom: 90px;">
+    </div>
+    <!--Header ends-->
+    
+    <!--Sidebar starts-->
+    <div class="sidebar">
+        <button class="btn"> Compose
+            <img src="ComposeButton.svg" style="position: relative; right: 90px; top: 7px;">
+        </button>
+        <div class="SidebarOptions">
+            <img src="Inbox.svg" class="b1">Inbox<br>
+            <img src="Starred.svg" class="b2">Starred <br>
+            <img src="Snoozed.svg" class="b3">Snoozed <br>
+            <img src="Sent.svg" class="b4">Sent <br>
+            <img src="Draft.svg" class="b5">Drafts <br>
+            <img src="More.svg" class="b6">More <br>
+            <hr style="position: relative; right: 1500px">
+        </div>
+        <div class="meet">
+            <h3 style="position: relative; top: 20px; left: 20px;">Meet</h3>
+            <br>
+            <img src="New Meeting.svg" style="position: relative; margin-left: 17px;top: 7px;"> New Meeting <br>
+            <img src="Start.svg" style="position: relative; margin-left: 17px;top: 7px;"> Join a meeting
+            
+        </div>
+        <hr style="position: relative; right: 1500px;top: 10px;">
+        <div class="Hangouts">
+            <h3 style="position: relative; top: 20px;left: 18px;">Hangouts</h3>
+        </div>
+    </div>
+    <!--Sidebar ends-->
+
+    <!--Email List section starts-->
+    <div class="emailList_section">
+        <img src="CheckBox.svg" style="position: relative; left: 300px; bottom: 340px;">
+        <img src="More.svg" style="position: relative; left: 300px; bottom: 340px;">
+        <img src="Refresh.svg" style="position: relative; left: 320px; bottom: 340px;">
+        <img src="More2.svg" style="position: relative; left: 330px; bottom: 340px;">
+        <img src="RightArrow.svg" style="position: relative; left: 1500px; bottom: 340px;">
+        <img src="LeftArrow.svg" style="position: relative; left: 1400px; bottom: 340px;">
+    </div>
+    <div class="Primary">
+        <img src="Inbox.svg" style="position: relative; padding-top: 5px;">Primary
+    </div>
+    <div class="Social">
+        <img src="People.svg" style="position: relative; padding-top: 5px;">Social
+    </div>
+    <div class="Promotion">
+        <img src="Promotion.svg" style="position: relative; padding-top: 5px;">Promotion
+    </div>
+    <div class="emailListRow">
+
+    </div>
+    <!--Email List section ends-->
+
+    <!--Email List row starts-->
+    <div class="emailList_rows">
+        <div class="emailRow">
+            <input type="checkbox">
+            <img src="Starred.svg" style="position: relative; top: 3.5px; left: 7px;">
+            <img src="Label.svg" style="position: relative; top: 4px; left: 8px;">
+            <h3 class="rowTitle" style="position: relative; bottom: 20px; left: 90px;">GeeksforGeeks</h3>
+            
+        </div>
+        <!--<div class="emailRow">
+            <input type="checkbox">
+            <img src="Starred.svg" style="position: relative; top: 3.5px; left: 7px;">
+            <img src="Label.svg" style="position: relative; top: 4px; left: 8px;">
+            <h3 class="rowTitle" style="position: relative; bottom: 20px; left: 90px;">GeeksforGeeks</h3>
+        </div>-->
+    </div>
+</body>
+</html>
