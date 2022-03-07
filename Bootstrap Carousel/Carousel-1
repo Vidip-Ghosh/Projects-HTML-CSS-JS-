@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <!--Indicators-->
+      <div id="myCarousel" class="carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+        <!--Wrappers-->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="Kerala.jpg" style="position: relative; width: 1200px; height: 650px;">
+            <p style="font-size: 18px;text-align: center;">Kerala->Gods Own Country</p>
+          </div>
+          <div class="item">
+            <img src="Sikkim.jpg" style="position: relative; width: 1200px; height: 650px;">
+            <p style="font-size: 18px;text-align: center;">Sikkim->Switzerland of East</p>
+          </div>
+          <div class="item">
+            <img src="Srinagar.jpg" style="position: relative; width: 1200px; height: 650px;" alt="">
+            <p style="font-size: 18px;text-align: center;">Srinagar</p>
+          </div>
+          <div class="item">
+            <img src="Goa.jpg" style="position: relative; width: 1200px; height: 650px;">
+            <p style="font-size: 18px;text-align: center;">Goa</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
