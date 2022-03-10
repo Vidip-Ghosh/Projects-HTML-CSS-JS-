@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <title>Vistara</title>
+    <link rel="icon" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fairhex.com%2Fairline-logos%2Fvistara%2F&psig=AOvVaw37rd0aY4pPFNUexDUbwPeM&ust=1646996775458000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJi-9qCzu_YCFQAAAAAdAAAAABAD">
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+  <style>
+      *{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+      }
+      .Details{
+          position: relative;
+          left: 320px;
+          top: 40px;
+        border: solid 2px;
+        height: 150px;
+        width: 1000px;
+      }
+      
+  </style>
+  <body>
+      <nav class="navbar navbar-expand navbar-dark" style="height: 100px; background-color: #582c4f;">
+        <a href="#" class="navbar-brand">
+            <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/qobvt3mwchv0hwdbrge6" style="padding: 160px;">
+        </a>
+        <ul class="navbar-nav ml-auto" style="padding-right: 130px;">
+            <li class="nav-item"><a href="#" class="nav-link" style="font-size:25px; color: white;">Plan Travel</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" style="font-size:25px; color: white;">Travel Info</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" style="font-size:25px; color: white;">Club Vistara</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" style="font-size:25px; color: white;">Login</a></li>
+            <li class="nav-item"><a href="#" class="nav-link" style="font-size:25px; color: white;">Enrol</a></li>
+        </ul>
+      </nav>
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+          </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://www.airvistara.com/content/dam/airvistara/global/english/home-page/cv-banners/Club-Vistara-Points-Fest.png" style="padding-left: 130px;">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.airvistara.com/content/dam/airvistara/in/english/2022/cv/International_Redemption_1354x450.png" style="padding-left: 130px;">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.airvistara.com/content/dam/airvistara/global/english/plan-travel/travel-insurance/Vistara-Travel-Insurance-HP-banner.png" style="padding-left: 130px;">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.airvistara.com/content/dam/airvistara/kathmandu-nepal/Combined-Destination-HP-banner-V4-JAN22-01%20(1).jpg" style="padding-left: 130px;">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.airvistara.com/content/dam/airvistara/global/english/common/image/home/images/hpcarosel/CoronaVirus-update1.jpg" style="padding-left: 130px;">
+            </div>
+        </div>
+        
+        </div>
+      </div>
+      <div class="Details">
+        PayBy: <input type="radio" id="PayBy">Cash
+        <input type="radio" id="CV"> CV Points
+        <input type="radio" id="Cash">Cash + Points
+        <br><br>
+        <input type="text" placeholder="Origin">
+        <input type="text" placeholder="Destination" style="position: relative; left: 30px; height: 30px; width: 200px;">
+        Departure
+        <input type="date" style="position: relative; left: 30px;"> 
+        
+       <input type="date" style="position: relative; left: 30px;">Return<br>
+        <input type="text" placeholder="Passengers" style="position: relative; width:300px; top: 25px;">
+        <input type="text" placeholder="Promo Code" style="position: relative; top: 25px; left: 30px;">
+        <button style="height: 30px; width: 200px; position: relative; top: 25px; background-color: #582c4f; color: white; border-radius: 10px; left: 30px;">Search Flights</button>
+    </div>
+  </body>
+</html>
