@@ -42,8 +42,8 @@
             <li class="nav-item"><a href="#" class="nav-link" style="font-size:25px; color: white;">Plan Travel</a></li>
             <li class="nav-item"><a href="#" class="nav-link" style="font-size:25px; color: white;">Travel Info</a></li>
             <li class="nav-item"><a href="#" class="nav-link" style="font-size:25px; color: white;">Club Vistara</a></li>
-            <li class="nav-item"><a href="#" class="nav-link" style="font-size:25px; color: white;">Login</a></li>
-            <li class="nav-item"><a href="#" class="nav-link" style="font-size:25px; color: white;">Enrol</a></li>
+            <li class="nav-item"><a href="https://www.airvistara.com/in/en/club-vistara/login/login-page" class="nav-link" style="font-size:25px; color: white;">Login</a></li>
+            <li class="nav-item"><a href="https://www.airvistara.com/in/en/club-vistara/register" class="nav-link" style="font-size:25px; color: white;">Enrol</a></li>
         </ul>
       </nav>
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
