@@ -14,10 +14,12 @@ searchButton.addEventListener("click",(e)=>{
 
 const getWeather = async (city)=>
 {
+    console.log(city)
     try{
-        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=3d914f5bd58fbff4e9d22354648804e`,
+        const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=23d914f5bd58fbff4e9d22354648804e`,
         {mode: 'cors'}
         );
+        console.log(response)
         const weatherData = await response.json();
         console.log(weatherData);
         const{name} = weatherData;
@@ -54,6 +56,7 @@ const getWeather = async (city)=>
     }
 };
 window.addEventListener("load", ()=>{
+    console.log('weather app is loading')
     let long;
     let lat;
     if(navigator.geolocation)
