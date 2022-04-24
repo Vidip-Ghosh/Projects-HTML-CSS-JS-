@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .btn{
+            border: 3px solid;
+            display: flex;
+            align-items: center;
+            align-content: center;
+            position: absolute;
+            right: 645px;
+            bottom: 350px;
+            height: 45px;
+            width: 300px;
+            border-radius: 20px;
+            padding-left: 80px;
+        }
+        .code{
+            border: 2px solid;
+            position: relative;
+            left: 380px;
+            height: fit-content;
+            background-color: azure;
+            border-radius: 20px;
+        }
+        .search{
+            border: 3px solid;
+            position: relative;
+            padding-left: 10px;
+            left: 735px;
+            height: 40px;
+            width: 300px;
+            font-size: 24px;
+            top: 30px;
+            border-radius: 20px;
+        }
+        .search:hover{
+            background-color: azure;
+        }
+        .btn:hover{
+            background-color: azure;
+        }
+    </style>
+</head>
+<body style="background-color: rgb(45, 72, 146);">
+    <input type="text" class="search" name="query">
+    <button class="btn">Generate QR Code</button>
+    <img src="QR Code.png" style="height: 400px;width: 400px;" class="code">
+</body>
+<script src="Vidip2.js"></script>
+</html>
