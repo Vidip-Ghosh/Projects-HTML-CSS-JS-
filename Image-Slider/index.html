@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Slider</title>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="slide">
+            <img src="./Images-Used/Goa.jpg" alt="">
+            <div class="caption">Caption-1</div>
+        </div>
+        <div class="slide">
+            <img src="./Images-Used/Kerala.jpg" alt="">
+            <div class="caption">Caption-2</div>
+        </div>
+        <div class="slide">
+            <img src="./Images-Used/Sikkim.jpg" alt="">
+            <div class="caption">Caption-3</div>
+        </div>
+        <div class="slide">
+            <img src="./Images-Used/Srinagar.jpg" alt="">
+            <div class="caption">Caption-4</div>
+        </div>
+        <span class="arrow next" onclick="controller(1)">&#9654;</span>
+        <span class="arrow prev" onclick="controller(-1)">&#9664;</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
