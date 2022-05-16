@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Login.css">
+    <title>Login Form</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: rgb(139, 96, 219);
+    }
+
+    input{
+        height: 40px;
+        width: 250px;
+        font-size: 20px;
+        padding: 10px;
+        border-radius: 10px;
+        border: 1px solid;
+        margin: 10px 0px;
+        /*position: relative;
+        left: 15px;*/
+    }
+    input[type="submit"]{
+        width: 220px;
+        background-color: rgb(139, 96, 219);
+        border: 0px;
+    }
+    #form-container{
+        text-align: center;
+        background-color: aliceblue;
+    }
+
+    h1{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 0px 0px 10px 0px;
+    }
+
+    .error{
+        color: red;
+        margin: 0px;
+        text-align: left;
+    }
+</style>
+<body>
+    <div id="form-container">
+        <h1>Login Info</h1>
+        <form action="" onsubmit="return validateForm()">
+            <input id="username" type="text"  placeholder="Enter your name"> <br>
+            <p id="userError" class="error"></p>
+            <input id="password" type="password"  placeholder="Enter password"> <br>
+            <p id="passError" class="error"></p>
+            <!-- <input type="email" placeholder="Enter email address"> <br>
+            <input type="number" placeholder="Enter contact number"> <br> -->
+            <input type="submit">
+            <!-- <button class="btn btn-primary">Login</button> -->
+        </form>
+    </div>
+    <script>
+        let username = document.getElementById("username");
+        let password = document.getElementById("password");
+        let flag = 1;
+        function validateForm(){
+            /*Checking User Name validation*/
+            if(username.value == ""){
+                document.getElementById("userError").innerHTML = "User Name is empty";
+                flag = 0;
+            }else if(username.value.length<3){
+                document.getElementById("userError").innerHTML = "User Name require minimum 3 characters";
+                flag = 0;
+            }
+            else{
+                document.getElementById("userError").innerHTML = "";
+                flag = 1;
+            }
+            /*Checking Password validation*/
+            if(password.value == ""){
+                document.getElementById("passError").innerHTML = "Password is empty";
+                flag = 0;
+            }
+            else{
+                document.getElementById("passError").innerHTML = "";
+                flag = 1;
+            }
+            if(flag){
+                return true;
+            }
+            else{
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
