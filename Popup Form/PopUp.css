@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+/*Form popup hidden by default*/
+.form-popup{
+    display: none;
+    left: 700px;
+    bottom: 250px;
+    border-radius: 8px;
+    border: 3px solid rgba(255, 153, 0, 0.953);
+}
+
+/* Add styles to the form container  */
+.form-container{
+    max-width: 300px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/*Set a style for the submit/login button*/
+.form-container .btn1{
+    font-size: 20px;
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 0px solid;
+    border-radius: 10px;
+}
+.btn1:hover{
+    background-color: rgb(24, 148, 24);
+}
+.form-container .cancel{
+    background-color: red;
+}
+.cancel:hover{
+    background-color: rgba(235, 111, 28, 0.953);
+}
+input{
+    height: 40px;
+    width: 250px;
+    margin: 10px 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid;
+    padding-left: 10px;
+}
+input:hover{
+    border: 3px solid; 
+}
