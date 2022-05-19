@@ -1,0 +1,30 @@
+.fa{
+    padding: 20px;
+    width: 50px;
+    text-decoration: none;
+    text-align: center;
+}
+.fa:hover{
+    opacity: 0.6;
+}
+/*Facebook*/
+.fa-facebook{
+    background-color: #3B5998;
+    color: white;
+}
+.fa-instagram{
+    background-color: #9e3d6f;
+    color: white;
+}
+.fa-whatsapp{
+    background-color: rgb(62, 198, 28);
+    color: white;
+}
+.fa-twitter{
+    background-color: rgb(40, 118, 220);
+    color: white;
+}
+.fa-linkedin{
+    background-color: #0a66c2;
+    color: white;
+}
