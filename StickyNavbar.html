@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navbar</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+    }
+    #logo{
+        height: 300px;
+        width: auto;
+    }
+    #header{
+        text-align: center;
+    }
+    #menu-bar{
+        text-align: center;
+        background-color: cadetblue;
+    }
+    #menu-bar li{
+        display: inline-block;
+        padding: 15px 10px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    #container{
+        text-align: center;
+        padding: 50px 100px;
+    }
+    #about-img{
+        width: 100%;
+    }
+    .sticky{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+</style>
+<body>
+    <div id="header">
+        <img id="logo" src="https://cdn.pixabay.com/photo/2020/08/05/13/12/eco-5465432_960_720.png" alt="">
+    </div>
+    <nav id="menu-bar">
+        <li>Home</li>
+        <li>About Us</li>
+        <li>Our Team</li>
+        <li>Client</li>
+        <li>Contact Us</li>
+    </nav>
+    <div id="container">
+        <h1>About Us</h1>
+        <img id="about-img" src="Indigo-Logo.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis cupiditate autem eveniet dignissimos, consequuntur quam nemo quia possimus necessitatibus nihil perferendis maiores nulla nam aspernatur quibusdam illo, repellat, laudantium rerum.
+        Necessitatibus assumenda sequi deleniti explicabo fuga cumque voluptatibus a praesentium asperiores hic, sit voluptates aspernatur corrupti beatae voluptatem ipsam quos ut laborum qui perferendis error eos corporis. Ea, modi iusto.
+        Atque, reiciendis. Unde sed reprehenderit, officiis rem velit molestiae saepe, illum aliquam dignissimos, a iure quibusdam! Accusantium dignissimos ea vel consequuntur! Rerum dignissimos cum non odio inventore illo tempora! Veritatis.
+        Accusamus ea, aspernatur quae quas nobis distinctio voluptate. Quam reiciendis dolore sapiente quidem! Saepe non consequatur accusantium ullam eveniet beatae laboriosam, exercitationem soluta pariatur suscipit laborum perferendis reprehenderit? Amet, magni.
+        Natus eaque quam quisquam ut laudantium. Adipisci, ea. Ipsa cupiditate amet quis iusto autem, animi provident minima iste voluptate esse quae consectetur soluta eligendi eum. Deleniti reprehenderit saepe molestias accusamus?
+        Hic, et exercitationem aliquid minima, doloremque eos est provident voluptate delectus tempora perferendis quibusdam quas molestiae consectetur itaque corrupti eum! Voluptates et magni veritatis quisquam, enim dicta exercitationem minus eum!
+        Recusandae non laudantium blanditiis ut aspernatur, tempore rerum iure provident tempora voluptate quidem deleniti mollitia ad ducimus. Excepturi quo mollitia aliquam aliquid autem, harum iure, libero consequatur similique iste nobis.
+        Obcaecati quisquam illo, qui accusantium mollitia excepturi minima ipsam deserunt! Porro corrupti velit officia facere id ipsa, numquam in quibusdam minus, temporibus excepturi nobis itaque voluptatem natus expedita assumenda odit?
+        Inventore animi eaque sapiente saepe accusamus quidem labore deleniti accusantium quo nulla, modi tempora! Vitae cumque laboriosam esse libero, suscipit deleniti rem nam corrupti officiis iure quisquam impedit est! Tempora.
+        In cum, qui dolor impedit voluptas pariatur sequi ipsum esse cupiditate molestias rerum deserunt corrupti tenetur similique. Repellendus voluptates, quod obcaecati deserunt voluptatibus aperiam, voluptatum illum possimus pariatur perspiciatis cum.
+        </p>
+        <script>
+            window.addEventListener('scroll',function(){
+                let navbar = document.getElementById("menu-bar")
+                if(window.pageYOffset>=190)
+                {
+                    navbar.classList.add('sticky');
+                }
+                else
+                {
+                    navbar.classList.remove('sticky');
+                }
+            });
+        </script>
+    </div>
+</body>
+</html>
